@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FEFAE0;
+}
+
+.registro-container {
+    background-color: #FFFFFF;
+    padding: 20px; 
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.Columna-imagen {
+    background-color: #CCD5AE;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Columna-imagen img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+.form-group label {
+    margin-bottom: 0.5rem; 
+}
+
+.columna-datos { 
+    padding: 30px; 
+}
+
+.boton-formulario {
+    background-color: #D4A373;
+    border: none;
+    width: 100%;
+    padding: 12px; 
+}
+
+.form-control {
+    background-color: #FAEDCD;
+    border: 1px solid #D4A373;
+}
+
+.form-control:focus {
+    background-color: #FAEDCD;
+    border-color: #D4A373;
+    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.25);
+}
