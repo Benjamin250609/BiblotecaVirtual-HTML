@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5c99a;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: calc(100vh - 70px); 
+    padding: 20px; 
+}
+
+.registro-container {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.Columna-imagen {
+    background-color: #CCD5AE;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Columna-imagen img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+.form-group label {
+    margin-bottom: 0.5rem; 
+}
+
+.columna-datos { 
+    padding: 30px; 
+}
+
+.boton-formulario {
+    background-color: #D4A373;
+    border: none;
+    width: 100%;
+    padding: 12px; 
+}
+
+.form-control {
+    background-color: #FAEDCD;
+    border: 1px solid #D4A373;
+}
+
+.form-control:focus {
+    background-color: #FAEDCD;
+    border-color: #D4A373;
+    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.25);
+}
+
+/* Estilo personalizado para el Navbar */
+.navbar-custom {
+    background-color: #fefae0; /* Fondo blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra sutil para darle profundidad */
+}
+
+/* Estilo para el título */
+.navbar-custom .navbar-brand {
+    font-family: 'Poppins', sans-serif; /* Usando la fuente de tus títulos */
+    font-weight: 700;
+    color: #1C1E21; /* Texto oscuro */
+}
+
+/* Estilo para los enlaces */
+.navbar-custom .nav-link {
+    font-weight: 600;
+    color: #65676B; /* Texto gris secundario */
+}
+
+/* Estilo para el enlace activo o al pasar el mouse */
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link:hover {
+    color: #D4A373; /* Tu color primario */
+}
+
+
+/* --- Estilos para la Página de Inicio (Home) --- */
+
+/* Estilos generales */
+section {
+    padding: 80px 0;
+}
+
+/* Navbar de la página de inicio */
+.navbar-custom .btn-outline-primary {
+    background-color: #283618; 
+    border-color: #283618;
+    color: white;
+}
+.navbar-custom .btn-outline-primary:hover {
+    background-color: #606c38;
+    color: white;
+}
+.navbar-custom .btn-primary { 
+    border-color: #283618;
+    color: white;
+}
+
+/* Sección Hero */
+.hero-section {
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+}
+.hero-section h1 {
+    font-family: var(--font-headings);
+    font-weight: 700;
+}
+
+.features-section{
+    background-color: #fefae0;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 30px;
+}
+.feature-icon {
+    font-size: 48px;
+    color: #283618;
+    margin-bottom: 20px;
+}
+
+/* Sección CTA */
+.cta-section {
+    background-color: var(--color-primary);
+    color: white;
+}
+.cta-section .btn-light {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+/* Footer */
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    color: var(--color-text-light);
+}
+
+.container h2{
+    color: black;
+}
+
+
+.boton-registrarse {
+    background-color: #283618; 
+    border-color: #283618;
+    color: white;
+    width: 15%;
+    padding: 12px; 
+}
+
